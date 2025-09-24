@@ -55,7 +55,7 @@ ROOT_URLCONF = 'practiceGit.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/practiceAppGit/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
